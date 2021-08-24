@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="141a1d30-3d61-4c2a-bf39-3a62c4dff1ab" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-frontend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/controllers/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/controllers/AppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/controllers/MedicalProcedureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/controllers/RewardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/controllers/TreatmentPlanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/domain/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/domain/entity/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/domain/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/domain/entity/MedicalProcedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/domain/entity/Reward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/domain/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/domain/entity/TreatmentPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/repositories/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/repositories/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/repositories/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/repositories/MedicalProcedureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/repositories/RewardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/repositories/TreatmentPlanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/services/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/services/AppointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/services/MedicalProcedureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/services/RewardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/services/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/services/TreatmentPlanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/java/app/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/META-INF/krondent-service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/controllers/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/controllers/AppointmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/controllers/MedicalProcedureController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/controllers/RewardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/controllers/TreatmentPlanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/domain/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/domain/entity/Appointment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/domain/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/domain/entity/MedicalProcedure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/domain/entity/Reward.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/domain/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/domain/entity/TreatmentPlan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/domain/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/repositories/AccountRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/repositories/AppointmentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/repositories/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/repositories/MedicalProcedureRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/repositories/RewardRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/repositories/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/repositories/TreatmentPlanRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/repositories/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/services/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/services/AppointmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/services/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/services/MedicalProcedureService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/services/RewardService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/services/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/services/TreatmentPlanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/app/services/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/krondent-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krondent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\projects\Krondent\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1phupnyO2gEtv2uQLFKMdAWIspH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/krondent-frontend/node_modules/protractor" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="E:\projects\Krondent\krondent-frontend\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\Krondent\krondent-frontend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\Krondent\krondent-frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Krondent" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="app.Application" />
+      <module name="krondent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2E Tests (krondent-frontend)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/krondent-frontend/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/krondent-frontend/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (krondent-frontend)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="krondent-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server (krondent-frontend)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/krondent-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Krondent" />
+      <item itemvalue="JavaScript Debug.Angular Application (krondent-frontend)" />
+      <item itemvalue="npm.Angular CLI Server (krondent-frontend)" />
+      <item itemvalue="Protractor.E2E Tests (krondent-frontend)" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="141a1d30-3d61-4c2a-bf39-3a62c4dff1ab" name="Default Changelist" comment="" />
+      <created>1615647828334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615647828334</updated>
+      <workItem from="1615647834855" duration="589000" />
+      <workItem from="1615648569780" duration="397000" />
+      <workItem from="1615649016436" duration="203000" />
+      <workItem from="1615649309471" duration="1484000" />
+      <workItem from="1615665053733" duration="1706000" />
+      <workItem from="1615667053383" duration="1818000" />
+      <workItem from="1615715430138" duration="2744000" />
+      <workItem from="1615718457201" duration="662000" />
+      <workItem from="1621436095785" duration="402000" />
+      <workItem from="1629734201061" duration="722000" />
+      <workItem from="1629735092186" duration="4386000" />
+      <workItem from="1629821443170" duration="3121000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1629822663680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629822663680</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1629822847084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629822847084</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1629824029261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629824029261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/krondent-frontend" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="717" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1629737406665">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="717" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1030@0.0.1920.1030" timestamp="1629737406665" />
+    <state x="623" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629738216139">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="623" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1629738216139" />
+    <state x="449" y="60" width="978" height="752" key="CommitChangelistDialog2" timestamp="1629824750325">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="449" y="60" width="978" height="752" key="CommitChangelistDialog2/0.0.1920.1030@0.0.1920.1030" timestamp="1629824750325" />
+    <state x="739" y="258" key="FileChooserDialogImpl" timestamp="1629824853188">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="739" y="258" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1629824853188" />
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621436504512" />
+    <state x="738" y="409" key="Github.CreateGistDialog" timestamp="1629822484055">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="738" y="409" key="Github.CreateGistDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1629822484055" />
+    <state x="798" y="380" width="724" height="269" key="Github.ShareDialog" timestamp="1629823726956">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="798" y="380" width="724" height="269" key="Github.ShareDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1629823726956" />
+    <state x="660" y="147" width="829" height="735" key="Github.UntrackedFilesDialog" timestamp="1629823053070">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="660" y="147" width="829" height="735" key="Github.UntrackedFilesDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1629823053070" />
+    <state x="625" y="217" key="NewModule_or_Project.wizard" timestamp="1621436317606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1621436317606" />
+    <state x="344" y="0" key="SettingsEditor" timestamp="1629824217483">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="344" y="0" key="SettingsEditor/0.0.1920.1030@0.0.1920.1030" timestamp="1629824217483" />
+    <state x="451" y="179" key="Vcs.Push.Dialog.v2" timestamp="1629824032441">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="451" y="179" key="Vcs.Push.Dialog.v2/0.0.1920.1030@0.0.1920.1030" timestamp="1629824032441" />
+    <state x="656" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1629824735572">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="656" y="339" key="com.intellij.ide.util.TipDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1629824735572" />
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621436101268" />
+    <state x="531" y="-25" width="838" height="1032" key="search.everywhere.popup" timestamp="1629735324119">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="531" y="-25" width="838" height="1032" key="search.everywhere.popup/0.0.1920.1030@0.0.1920.1030" timestamp="1629735324119" />
+  </component>
+</project>
